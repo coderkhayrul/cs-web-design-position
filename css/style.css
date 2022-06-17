@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+li, ul{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+
+.navbar{
+    height: 60px;
+    width:100%;
+    position:sticky;
+    background-color: rgb(75, 62, 62);
+    margin-bottom: 10px;
+    z-index: 9999;
+    top: 0;
+    text-align: center;
+}
+.navbar ul{
+    margin-top: 15px;
+    display: inline-flex;
+}
+.navbar ul li{
+    padding: 7.5px 20px;
+}
+.navbar ul li a{
+    color: chocolate;
+}
+.navbar ul li a:hover{
+    font-size: large;
+}
+
+.main_box{
+    height: 700px;
+    width: 700px;
+    background: rgb(202, 2, 2);
+    position: relative;
+    left: 400px;
+}
+
+.box1{
+    height: 600px;
+    width: 600px;
+    background: rgb(183, 3, 228);
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+.box2{
+    height: 500px;
+    width: 500px;
+    background: rgb(224, 228, 3);
+    position:absolute;
+    right: 100px;
+    top: 100px;
+
+}
+.box3{
+    height: 400px;
+    width: 400px;
+    background: rgb(67, 228, 3);
+    position:absolute;
+    right: 150px;
+    top: 150px;
+}
+.box4{
+    height: 300px;
+    width: 300px;
+    background: rgb(3, 228, 198);
+    position:absolute;
+    right: 200px;
+    top: 200px
+}
+.box5{
+    height: 200px;
+    width: 200px;
+    background: rgb(220, 3, 228);
+    position:absolute;
+    right: 250px;
+    top: 250px
+}
+.title{
+    height: 150px;
+    width: 150px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position:absolute;
+    right: 275px;
+    top: 275px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.bd_flag{
+    height: 400px;
+    width: 700px;
+    background: rgb(0, 161, 0);
+    position:relative;
+    margin-top: 100px;
+    left: 400px;
+    margin-bottom: 100px;
+}
+.circle{
+    height:200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+.logo img{
+    width: 100%;
+}
